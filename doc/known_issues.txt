@@ -1,0 +1,15 @@
+Annotions:
+
+- requires transient IDs to be activated in your php.ini: session.use_trans_sid=1
+
+- other web technologies used: css
+
+- known bugs/weaknesses:
+Due to time issues not much verification is used. (some client side with java script, not much php verification)
+
+- Last minute changes: Email attribute for customer is not marked as optional anymore (contrary to the printout)
+
+- the page where you can modify the customers (customers.php) is not validated because it contains forms in a table which is not possible in XHTML.
+
+- the page which the user is sent to after filling in the password change - form is not in a seperate folder because of some issues with relative paths after including
+files that include other includes that are used on other pages too. but all the database changing code is in a seperate php folder which can be protected from unwanted access

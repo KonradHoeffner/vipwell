@@ -1,0 +1,8 @@
+<?php
+
+$hostName = "localhost";
+$userName = "";
+$password = "";
+$dbName = "";
+
+?>
